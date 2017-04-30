@@ -1,2 +1,4 @@
 .idea/
 demonstrator.iml
+bin/
+pkg/
