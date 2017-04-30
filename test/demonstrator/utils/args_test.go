@@ -22,12 +22,12 @@ func TestIsAnOption(t *testing.T) {
  * Méthode utilitaire pour les tests
  */
 func getPossibleOptions() map[string]bool {
-	possibleOptions := make(map[string]bool)
-	possibleOptions["--optionavecargument"] = true
-	possibleOptions["--optionavecargument2"] = true
-	possibleOptions["--optionsansargument"] = false
-	possibleOptions["--optionsansargument2"] = false
-	return possibleOptions
+	return map[string]bool{
+		"--optionavecargument": true,
+		"--optionavecargument2": true,
+		"--optionsansargument": false,
+		"--optionsansargument2": false,
+	}
 }
 
 /**
