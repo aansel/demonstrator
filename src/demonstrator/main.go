@@ -19,6 +19,7 @@ func main() {
 		case "help":
 			commands.Help()
 		case "build":
+			commands.Build(args[2:])
 		case "start":
 		case "stop":
 		case "restart":
