@@ -6,6 +6,12 @@
 `
 export GOPATH="~workspace/demonstrator"
 `
+
+# Installer les dépendances
+`
+go get github.com/fatih/color
+`
+
 * compiler et lancer demonstrator
 
 `
